@@ -1,3 +1,5 @@
+![](https://insellers.com/wp-content/uploads/2020/10/cropped-WhatsApp-Image-2020-10-30-at-1.25.42-PM-3-65x56.jpeg)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +70,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+### git remote add origin https://github.com/arpit282/Insellers.git
