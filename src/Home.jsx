@@ -1,6 +1,5 @@
 import React from "react";
-
-
+import ReactTypingEffect from 'react-typing-effect';
 import Post from './Post'
 
 const Home = () => {
@@ -12,7 +11,31 @@ const Home = () => {
             <div className="row nav_bg">
               <div className="col-md-6 pt-5 pt-lg-0 order-1 order-lg-1 d-flex flex-column justify-content-center home_text">
                 <h2>Telling your stories to the world and helping you to build some </h2>
-                <h1 className='my-3 brand-name'>CONSULTING</h1>
+                
+                <ReactTypingEffect className='mt-3'
+                  text={["CONSULTING", "RESEARCHING","GROWTH STORIES","FOUNDER INSIGHTS"]}
+                  speed='100'
+                  eraseSpeed='150'
+                  eraseDelay='1000'
+                  typingDelay='50'
+                  cursor='_'
+                  cursorRenderer={cursor => <h1>{cursor}</h1>}
+                  displayTextRenderer={(text, i) => {
+                    return (
+                      <h1>
+                        {text.split('').map((char, i) => {
+                          const key = `${i}`;
+                          return (
+                            <span
+                              key={key}
+                              style={{ color: '#1A75BC' } }
+                            >{char}</span>
+                          );
+                        })}
+                      </h1>
+                    );
+                  }}
+                />
                 <h2 className='mt-3'>For more inspirational stories</h2>
                 <a href="" className='mt-3 btn btn-primary' style={{ width:'150px',padding:'20px'}}>Subscribe Here</a>
               </div>
