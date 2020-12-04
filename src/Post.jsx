@@ -13,12 +13,7 @@ const Post = () => {
                         <div className="row">
                             <div className="col mx-auto">
                                 <div className="row gy-4">
-                                <Card/>   
-                                <Card/>   
-                                <Card/>   
-                                <Card/>   
-                                <Card/>   
-                                <Card/>   
+                                 <Card/>   
                                 </div>
                                 </div>
                             </div>
